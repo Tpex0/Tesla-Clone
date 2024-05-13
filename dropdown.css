@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    height: 60vh;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(250, 243, 243);
+    display: none;
+    position:absolute
+}
+.column{
+    display: flex;
+    
+    
+}
+.column img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 500px;
+    left: 80%;
+    position: absolute;
+    display: block; 
+    margin-left: 80px;
+
+}
+.vl a{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.content{
+    width: 70%;  
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem; 
+    float: left;
+}
+.dropdown{
+    overflow: hidden;
+
+}
+.dropdown button:hover .row {display: block;
